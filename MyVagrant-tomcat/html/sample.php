@@ -7,6 +7,7 @@
     $mysqli->set_charset("utf8");
   }
 
+// データベースの作成と表示
 $mysqli->query("create database if not exists test2 default character set utf8");
 $result = $mysqli->query("show databases");
 
